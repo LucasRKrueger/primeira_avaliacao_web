@@ -76,3 +76,10 @@ footer{
 #git-lucas{
     margin-right: 25px;
 }
+#git-lucas:hover{
+    color: #b8b5ff;
+}
+
+#git-dup:hover{
+    color: #b8b5ff;
+}

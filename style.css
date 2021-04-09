@@ -57,6 +57,14 @@ footer{
     height: 40px;
 }
 
+.lottie-file{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    height: calc(100vh - 166px);
+}
+
 #logo{
     padding-left: 8px;
 }

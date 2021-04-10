@@ -1,6 +1,6 @@
 body{
     background-color: #edeef7;
-    margin: auto;   
+    margin: auto;  
 }
 
 header{
@@ -9,7 +9,8 @@ header{
     height: 63px;
     display: flex;
     align-items: center;
-}
+    position: relative;
+} 
 
 nav{
     background-color: #b8b5ff;
@@ -41,7 +42,7 @@ footer{
     display: flex;
     align-items: center;
     justify-content: center;
-    position: absolute;
+    position: fixed;
     bottom: 0;
 }
 
@@ -49,6 +50,7 @@ article{
     justify-content: center;
     align-items: center;
     display: flex;
+    flex-flow: column;
 }
 
 h2{
@@ -74,10 +76,7 @@ label{
     margin:5px 5px 9px 0px;
 }
 
-table{
-    display: flex;
-    flex-direction: column;
-}
+
 
 .container{
     margin-top: 15px;
@@ -91,8 +90,35 @@ table{
     flex-direction: column;
     align-items: center;
 }
+
 .container:hover{
     box-shadow: rgba(0, 0, 0, 0.15) 3.95px 3.95px 3.6px;
+}
+
+table, th, td{
+    width: 300px;
+    border-collapse: collapse;   
+}
+
+table{  
+    display: inline-block;
+    margin-top: 200px;
+}
+
+table, th{
+    text-align: center;
+}
+
+tr{
+    border-radius: 50%;
+}
+th{
+    background-color: #7868e6;
+    font-size: 20px;
+}
+td{
+    background-color: #b8b5ff;
+    padding: 4px;
 }
 
 .form-input-material{

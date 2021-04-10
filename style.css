@@ -51,7 +51,7 @@ article{
     display: flex;
 }
 
-h3{
+h2{
     font-family: sans-serif;
     color: #edeef7;
 }
@@ -64,8 +64,7 @@ input[type=text]{
 
 input[type=text]:focus{
     border: 0px;
-    border-radius: 0%;
-    color: white;
+    outline: none;
 }
 
 label{
@@ -75,11 +74,16 @@ label{
     margin:5px 5px 9px 0px;
 }
 
+table{
+    display: flex;
+    flex-direction: column;
+}
+
 .container{
     margin-top: 15px;
     width: 15.625rem;
     height: 15.625rem;
-    background-color: #b8b5ff;
+    background-color: #949cdf;
     border-radius: 4px 4px 4px 4px;
     box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
     display: flex;
@@ -87,9 +91,11 @@ label{
     flex-direction: column;
     align-items: center;
 }
+.container:hover{
+    box-shadow: rgba(0, 0, 0, 0.15) 3.95px 3.95px 3.6px;
+}
 
 .form-input-material{
-
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -110,19 +116,20 @@ label{
     height: calc(100vh - 166px);
 }
 
-.cadastrar{
-    margin: 50px 10px auto 145px;
+#btn-cadastrar{
+    margin: 45px 10px auto 155px;
     display: flex;
     align-content: flex-end;
     padding: 5px;
+    border-radius: 10px;
+    background-color: #7868e6;
+    background: linear-gradient(to right, rgb(120, 104, 230), rgb(181, 179, 255));
 }
 
-.cadastrar:hover{
+#btn-cadastrar:hover{
     color: #edeef7;
-    background-color: #7868e6;
-    border-radius: 10px;
-    transition: .4s;
     border: 0.15;
+    background: linear-gradient(to left,rgba(120, 104, 230), rgba(181, 179, 255) );
 }
 
 #user{

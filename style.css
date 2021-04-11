@@ -1,6 +1,6 @@
 body{
     background-color: #edeef7;
-    margin: auto;  
+    margin: auto;
 }
 
 header{
@@ -23,8 +23,6 @@ nav{
 
 a{
     color: #edeef7;
-    display: inline-block;
-    align-content: center;
     font-family: sans-serif;
     text-decoration: none;
 }
@@ -65,18 +63,14 @@ input[type=text]{
 }
 
 input[type=text]:focus{
-    border: 0px;
     outline: none;
 }
 
 label{
-    display: block;
     font-family: sans-serif;
     width: 0;
     margin:5px 5px 9px 0px;
 }
-
-
 
 .container{
     margin-top: 15px;
@@ -124,12 +118,9 @@ td{
 .form-input-material{
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
 }
 
 .image{
-    margin: auto;
-    display: inline-block;
     width: 40px;
     height: 40px;
 }
@@ -145,7 +136,6 @@ td{
 #btn-cadastrar{
     margin: 45px 10px auto 155px;
     display: flex;
-    align-content: flex-end;
     padding: 5px;
     border-radius: 10px;
     background-color: #7868e6;
@@ -162,7 +152,6 @@ td{
     margin-left: auto;
     padding-right: 8px;
     padding-bottom: 2px;
-    padding-left: 5px;
 }
 
 
@@ -185,9 +174,3 @@ td{
 #git-dup:hover{
     color: #b8b5ff;
 }
-
-
-
-
-
-
